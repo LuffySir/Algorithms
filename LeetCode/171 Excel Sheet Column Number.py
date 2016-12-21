@@ -18,3 +18,5 @@ class Solution(object):
         for i in range(len(s) - 1, -1, -1):
             num += (ord(s[len(s) - 1 - i]) - ord('A') + 1) * 26 ** i
         return num
+
+# return reduce(lambda x, y : x * 26 + y, [ord(c) - 64 for c in list(s)])
