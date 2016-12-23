@@ -1,24 +1,41 @@
-# You are playing the following Nim Game with your friend: There is a heap of stones
-# on the table, each time one of you take turns to remove 1 to 3 stones. The one who
-# removes the last stone will be the winner. You will take the first turn to remove
-# the stones.
+# Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), some elements appear twice and others appear once.
 
-# Both of you are very clever and have optimal strategies for the game. Write a
-# function to determine whether you can win the game given the number of stones in the heap.
+# Find all the elements of [1, n] inclusive that do not appear in this array.
 
-# For example, if there are 4 stones in the heap, then you will never win the game:
-# no matter 1, 2, or 3 stones you remove, the last stone will always be removed by your friend.
+# Could you do it without extra space and in O(n) runtime? You may assume
+# the returned list does not count as extra space.
+
+# Input:
+# [4,3,2,7,8,2,3,1]
+
+# Output:
+# [5,6]
 
 
 class Solution(object):
-    def canWinNim(self, n):
+    # 超时
+    def findDisappearedNumbers(self, nums):
         """
-        :type n: int
-        :rtype: bool
+        :type nums: List[int]
+        :rtype: List[int]
         """
-        if (n % 4) == 0:
-            win = False
-        else:
-            win = True
+        res = []
+        for i in range(len(nums)):
+            if (i + 1) not in nums:
+                res.append(i + 1)
+        return res
 
-        return win
+    def findDisappearedNumbers1(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
+        # For each number i in nums,
+        # we mark the number that i points as negative.
+        # Then we filter the list, get all the indexes
+        # who points to a positive number
+        for i in range(len(nums)):
+            index = abs(nums[i]) - 1
+            nums[index] = - abs(nums[index])
+
+        return [i + 1 for i in range(len(nums)) if nums[i] > 0]
