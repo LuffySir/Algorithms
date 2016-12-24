@@ -12,7 +12,7 @@ class Solution(object):
         """
         val_num = Counter(nums)
         tup = val_num.most_common(1)
-        res,times = tup[0]
+        res, times = tup[0]
         return res
 
         # return sorted(num)[len(num)/2]
