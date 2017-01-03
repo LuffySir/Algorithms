@@ -13,6 +13,7 @@
 
 
 class Solution(object):
+    # 超时
     def maxProfit(self, prices):
         """
         :type prices: List[int]
@@ -28,3 +29,31 @@ class Solution(object):
                     if profit < diff:
                         profit = diff
         return profit
+
+    def maxProfit1(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        n = len(prices)
+        if n <= 1:
+            return 0
+        max_profit = 0
+        low_price = prices[0]
+        for i in range(1, n):
+            low_price = min(low_price, prices[i])
+            max_profit = max(max_profit, prices[i] - low_price)
+        return max_profit
+
+    def maxProfit2(self, prices):
+        """
+        :type prices: List[int]
+        :rtype: int
+        """
+        max_curr = 0
+        max_sofar = 0
+        for i in range(1, len(prices)):
+            max_curr += prices[i] - prices[i - 1]
+            max_curr = max(0, max_curr)
+            max_sofar = max(max_curr, max_sofar)
+        return max_sofar
