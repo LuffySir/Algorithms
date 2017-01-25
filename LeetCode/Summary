@@ -5,6 +5,13 @@
     Java可以考虑用freq[s.charAt(i)-'a']++的方法计数
     可以考虑使用异或(两次相同的为0，且与顺序无关)
 
+2、二叉树遍历问题：
+    考虑使用stack和queue（collections.deque双向队列）
+
+3、LinkedList问题：
+    善于利用dummy记录头节点
+
+
 
 
 python 函数：
