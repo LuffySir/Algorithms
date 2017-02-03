@@ -31,8 +31,8 @@
       <file leaf-file-name="101 Symmetric Tree.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/101 Symmetric Tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="528">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +67,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="177" />
-    <option name="y" value="44" />
+    <option name="x" value="117" />
+    <option name="y" value="37" />
     <option name="width" value="1501" />
     <option name="height" value="994" />
   </component>
@@ -309,7 +309,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="177" y="44" width="1501" height="994" extended-state="0" />
+    <frame x="117" y="37" width="1501" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18855219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -604,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/101 Symmetric Tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="528">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
