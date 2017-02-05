@@ -1,6 +1,3 @@
-# Given a string, find the first non-repeating character in it and
-# return it's index. If it doesn't exist, return -1.
-
 #  Given two binary trees, write a function to check if they are equal or not.
 
 # Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
