@@ -28,11 +28,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="441 Arranging Coins.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/441 Arranging Coins.py">
+      <file leaf-file-name="141 Linked List Cycle.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/141 Linked List Cycle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1128">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="368">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -67,6 +67,7 @@
         <option value="$PROJECT_DIR$/100 Same Tree.py" />
         <option value="$PROJECT_DIR$/110 Balanced Binary Tree.py" />
         <option value="$PROJECT_DIR$/441 Arranging Coins.py" />
+        <option value="$PROJECT_DIR$/141 Linked List Cycle.py" />
       </list>
     </option>
   </component>
@@ -313,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="308" y="12" width="1501" height="994" extended-state="1" />
+    <frame x="308" y="12" width="1501" height="994" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18855219" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -624,14 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/485 Max Consecutive Ones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/100 Same Tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-432">
@@ -642,8 +635,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/441 Arranging Coins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1128">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/485 Max Consecutive Ones.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/141 Linked List Cycle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="32" selection-end-column="20" />
           <folding />
         </state>
       </provider>
