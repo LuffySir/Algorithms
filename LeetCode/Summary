@@ -24,3 +24,10 @@ python 函数：
 2、count()方法
     用于统计字符串里某个字符出现的次数。可选参数为在字符串搜索的开始与结束位置。
     str.count(sub, start= 0,end=len(string))
+3、list.append()
+    a = a.append()  # a 将为 None
+    # 可用a = a + []
+4、list
+    pre = beh
+    beh.append()
+    # pre 和 beh将指向同一对象，始终相等，因此可使用3中方法避免这种情况

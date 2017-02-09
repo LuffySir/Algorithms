@@ -25,5 +25,5 @@ def generate(numRows):
     print(res)
     return res
 
-generate(8)
+generate(3)
 
