@@ -49,3 +49,5 @@ python 函数：
     t = timeit.Timer('s[:8] == "subject:"', 's="subject: xxx"')
     t.timeit()
     得到执行该语句的运行时间
+6、ord()、chr()
+    ord('a') => 97  chr(97) => 'a'
