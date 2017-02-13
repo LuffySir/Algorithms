@@ -12,4 +12,3 @@ class Solution(object):
             maxHere = 0 if n == 0 else maxHere + 1
             res = max(res, maxHere)
         return res
-
