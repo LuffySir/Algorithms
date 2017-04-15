@@ -9,8 +9,13 @@ def hammingWeight(n):
     :type n: int
     :rtype: int
     """
-    res = bin(n).count('1')
+    # res = bin(n).count('1')
+    # print(res)
+    res = 0
+    while(n):
+        res += 1
+        n = n & (n-1)
     print(res)
     return res
 
-hammingWeight(11)
+hammingWeight(15)
